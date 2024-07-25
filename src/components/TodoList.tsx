@@ -4,7 +4,6 @@ import React from "react";
 import { useQuery, useMutation, gql } from "@apollo/client";
 import TodoForm from "./TodoForm";
 import { FaTrash } from "react-icons/fa";
-import { ClipLoader } from "react-spinners";
 import Loader from "./Loader";
 
 const GET_TODOS = gql`
